@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "MyActivityTracker",
   "resources": {
-    "hash": "sha256-VnpPF6YHGU2DuDC9EX+wdbrCIjqmsU6wkBAcK3vaOcE=",
+    "hash": "sha256-uqhI5Ox0d4M8yg8p39IVQk+FtJr2LEVfYymPFTZ5AFE=",
     "jsModuleNative": {
       "dotnet.native.8.0.0.45ykigla5r.js": "sha256-LjLDIz9+J7uuiwMlQ4HbNx2BnSpphOtO2MwkoI28vdI="
     },
@@ -31,7 +31,7 @@
       "Microsoft.Extensions.Primitives.wasm": "sha256-6187ynEahDlSLMBvD4vAmiLpZ3clRb5xu6rM7O8AxNo=",
       "Microsoft.JSInterop.wasm": "sha256-lXwhdv0Is9FMH/j0+WH3zoNWAGLbVaONtGucJ/4URQ0=",
       "Microsoft.JSInterop.WebAssembly.wasm": "sha256-CQVLCKiSxLN5ghyJZG3mhnMGRROdqrbNUjtAXB0nWb8=",
-      "MyActivityTracker.wasm": "sha256-Fk5V2y+dbdkyqDHp16iStDljQH6RfmxxwkgVhFP2lG4=",
+      "MyActivityTracker.wasm": "sha256-IKAyBpw/hJPrJSf1sSlo/tIDgW26SPppwXFuk6D3sYk=",
       "System.Collections.Concurrent.wasm": "sha256-/iT3Y71AMV0IxlknaXWQf8WJXGsB5oDfys+6PzvYG34=",
       "System.Collections.wasm": "sha256-lJZip5HcMDWtHh2Nx9SDTnVoLfsYwm5ZMOkUlpA3RTw=",
       "System.ComponentModel.wasm": "sha256-Kg+Te+dUBA6OiPS3uVj+Poyamhf9bMlcL96uc+bTYWc=",
