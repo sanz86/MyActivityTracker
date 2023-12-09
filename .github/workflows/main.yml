@@ -5,7 +5,7 @@ on:
     branches:
       - main
 jobs:
-  build-and-deploy:
+  build:
     runs-on: windows-latest
 
     steps:
@@ -22,6 +22,12 @@ jobs:
 
       - name: dotnet publish
         run: dotnet publish -c Release -o build
+
+  deploy:
+
+    runs-on: ubuntu-latest
+
+    steps:
         
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
