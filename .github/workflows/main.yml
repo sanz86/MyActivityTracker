@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
@@ -24,13 +24,6 @@ jobs:
 
       - name: dotnet publish
         run: dotnet publish -c Release -o build
-
-  deploy:
-
-    runs-on: ubuntu-latest
-    needs: build
-
-    steps:
         
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
